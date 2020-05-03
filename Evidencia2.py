@@ -109,7 +109,7 @@ while darInicio>="0":
             print("La informacion se ha guardado en un archivo '.csv'")
         elif formatoArchivo==2:
             notasEnDiccionario.T.to_json('evidencia2J.json', orient="index")
-            print("La informacion se a guardado en un archivo '.josn'")
+            print("La informacion se a guardado en un archivo '.json'")
         else:
             break
         break
