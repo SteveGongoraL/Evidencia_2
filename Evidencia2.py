@@ -82,7 +82,7 @@ while darInicio>="0":
         decision=int(input("Quiere acceder a los datos estadisticos de: \n1)- Materias.\n2)- Estudiantes.\n"))
         if decision==1:
             print("\n°°°°Estadistica por materias°°°°")
-            print(notasEnDiccionario.T.mean())
+            print(notasEnDiccionario.T.describe())
             op=int(input("¿Deseas guardar estos datos en un archivo de texto?\n1)- Obvio.\n2)- No gracias.\n"))
             if op==1:
                 f = open("EstadisticaM.txt","w")
